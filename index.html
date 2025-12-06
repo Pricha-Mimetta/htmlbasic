@@ -3,37 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML BASIC</title>
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        h4 {
-            color: pink;
-        }
-        #heading5 {
-            color: #44aabb;
-        }
-        .heading5 {
-            color: #772255;
-        }
-    </style>
+    <title>แบบสอบถาม</title>
 </head>
 <body>
-    <h1 title="Heading1" style ="color: blue;">Heading 1</h1>
-    <h2 style="color: red;">Heading 2</h2>
-    <h3 style="color: #00ff00;">Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5 id="heading5">Heading 5</h5>
-    <!-- <h5 class="headig5">Heading 5</h5> -->
-    <h6>Heading 6</h6>
-    <a href="https://www.ubru.ac.th" target="_blank">
-        <img src="images/house.png" alt="My House" width="64" height="64">
 
-    </a>
-    <img src="images/flower.png" alt="Flower" width="64" height="64">
-    <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/937.png" alt="Pokemon" width="256" height="256">
+<h2 style="text-align: center;">แบบสอบถาม</h2>
 
-    <p>Lorem, <b>ipsum dolor</b> sit amet <mark>consectetur</mark> adipisicing elit. Amet unde, eligendi placeat facere dolor tenetur perferendis maxime. Ad laudantium distinctio, et asperiores natus, harum rerum quasi quod ipsa nihil sint.</p>
-    <p><i><ins>Lorem, ipsum</ins></i> dolor sit amet consectetur adipisicing elit. Nulla quae voluptas blanditiis voluptatibus aperiam quas ipsa. Laudantium labore nemo illo numquam ducimus iure ullam molestiae commodi. Ad veritatis non voluptates!
-    Autem reprehenderit incidunt qui esse corrupti voluptatem quia minus officia amet aspernatur nesciunt laboriosam beatae quas fuga quidem, nam cupiditate, quod voluptates non, unde eius! Eos, quod nulla. Deleniti, enim?</p>
-</body>
-</html>
+<form>
+    <table align="center" width="400" cellpadding="5" style="background-color:#f5e3c3;">
+        <tr>
+            <td colspan="2">
+            <b>ข้อมูลผู้ตอบแบบสอบถาม</b>
+             <hr>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <b>ชื่อ - นามสกุล</b>
+            <input tag type="text" style="width:78%;">
+            </td>
+        </tr>
+        <tr>
+        <td colspan="2">
+        <b>รหัสนักศึกษา</b>
+        <input tag type="text" style="width:78%;">
+            </td>
+        </tr>
+        <tr>
+        <td colspan="2">
+        <b>เพศ</b>
+        <input tag type="radio" name="gender"> ชาย
+        <input tag type="radio" name="gender"> หญิง
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: middle; width: 30%;">
+            <b>สังกัดคณะ</b>
+            </td>
+            <td>
+            <select tag size="10" style="width:54%; height:120px;">
+            <option>วิทยาศาสตร์</option>
+            <option>วิทยาการคอมพิวเตอร์</option>
+            <option>ครุศาสตร์</option>
+            <option>บริหารธุรกิจและการจัดการ</option>
+            <option>มนุษยศาสตร์</option>
+            <option>เทคโนโลยีอุตสาหกรรม</option>
+            <option>เกษตรศาสตร์</option>
+            <option>พยาบาลศาสตร์</option>
+            <option>สาธารณสุขศาสตร์</option>
+            <option>แพทย์แผนไทยและทางเลือก</option>
+            <option>นิติศาสตร์</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+        <td colspan="2"><b>แม่สีที่ชื่นชอบ</b></td>
+        </tr>
+        <tr>
+        <td colspan="2">
+        <input tag type="checkbox"> สีแดง
+        <input tag type="checkbox"> สีเขียว
+        <input tag type="checkbox"> สีน้ำเงิน
+        </td>
+        </tr>
+        <tr>
+        <td colspan="2"><b>ผลไม้ที่ชื่นชอบ</b></td>
+        </tr>
+        <tr>
+        <td colspan="2">
+        <input tag type="checkbox"> มะม่วง
+        <input tag type="checkbox"> น้อยหน่า
+        <input tag type="checkbox"> ทุเรียน
+        <input tag type="checkbox"> กล้วย
+        <input tag type="checkbox"> ฝรั่ง
+        <input tag type="checkbox"> แตงโม
+        </td>
+        </tr>
+        <tr>
+        <td colspan="2"><b>อาหารที่ชื่นชอบ</b></td>
+        </tr>
+        <tr>
+        <td colspan="2">
+        <input tag type="checkbox"> ต้มยำกุ้ง
+        <input tag type="checkbox"> ไข่เจียวหมูสับ
+        <input tag type="checkbox"> แกงขาไก่
+        <input tag type="checkbox"> แกงเขียวหวานไก่<br>
+        <input tag type="checkbox"> ผัดไทย
+        <input tag type="checkbox"> ราดหน้าหมูกรอบ
+        </td>
+        </tr>
+        <tr>
+        <td colspan="2" style="text-align:center;">
+        <input tag type="submit" value="บันทึก">
+        </td>
+        </tr>
+    </table>
+       </form>
+           </body>
+                </html>
